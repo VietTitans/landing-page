@@ -1,12 +1,29 @@
 body {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.container-one {
+.section-1 {
+    color: white;
+    background-color: #1F2937;
+}
+
+.container-header {
     justify-content: flex-start;
     flex-direction: row;
 }
 
+.header-left {
+    justify-content: flex-start;
+}
+
+.header-right {
+    justify-content: flex-end;
+}
+
+
 a {
+    color: white;
     text-decoration: none;
 }
