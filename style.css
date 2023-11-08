@@ -1,12 +1,14 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .section-1 {
     color: white;
     background-color: #1F2937;
+    flex: 1;
+    margin: 0;
 }
 
 .container-header {
@@ -21,7 +23,6 @@ body {
 .header-right {
     justify-content: flex-end;
 }
-
 
 a {
     color: white;
