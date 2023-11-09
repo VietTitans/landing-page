@@ -2,8 +2,18 @@ body, header, main, footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 0px;
     margin: 0;
+}
+
+.container-header {
+    flex-grow: 1;
+    color: white;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .section-1 {
@@ -11,14 +21,7 @@ body, header, main, footer {
     background-color: #1F2937;
     flex: 1;
     padding: 10px;
-}
 
-.container-header {
-    color: white;
-    background-color: #1F2937;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
 }
 
 .header-left {
@@ -63,7 +66,7 @@ a {
     flex-basis: 120px;
 }
 
-/*
+
 * {
     border: 1px dotted blue;
 }
