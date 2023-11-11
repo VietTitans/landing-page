@@ -44,8 +44,10 @@ body, header, main, footer {
 .section-1-left {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: flex-start; /* This doest work... WHY?!*/
+    gap: 0;
     font-size: 18px;
+    color: #E5E7EB;
 } 
 
 .section-1-left h1 {
