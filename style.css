@@ -12,12 +12,14 @@ body, header, main, footer {
     color: white;
     background-color: #1F2937;
     justify-content: space-between;
-    align-items: center;
-    flex-basis: 100%;
+    padding: 3px;
 }
 
 .header-left {
-    flex-basis: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
 .header-right {
@@ -34,7 +36,7 @@ body, header, main, footer {
 }
 
 a {
-    color: white;
+    color: lightgrey;
     text-decoration: none;
 }
 
