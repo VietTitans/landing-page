@@ -6,11 +6,14 @@ body, header, main, footer {
     margin: 0;
 }
 
+header, footer {
+    background-color: #1F2937;
+}
+
 .container-header {
     display: flex;
     flex-direction: row;
     color: white;
-    background-color: #1F2937;
     justify-content: space-between;
     padding: 3px;
     padding-left: 7em;
@@ -161,13 +164,22 @@ a {
     flex-direction: row;
     align-items: flex-start;
     gap: 0;
-    font-size: large;
+    font-size: large; 
 }
 
 .container-action button {
     border: 2px solid white;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightgrey;
+    padding: 1em;
+}
+
+/*
 * {
     border: 0.5px dotted blue;
 }
