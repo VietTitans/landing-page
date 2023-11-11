@@ -3,7 +3,7 @@ body, header, main, footer {
     flex-direction: column;
     justify-content: space-between;
     gap: 0px;
-    margin: 0;
+
 }
 
 .container-header {
@@ -33,6 +33,21 @@ body, header, main, footer {
     color: white;
     background-color: #1F2937;
     padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.section-1-left {
+
+} 
+
+.section-1-right {
+    color: white;
+    background-color: grey;
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 a {
