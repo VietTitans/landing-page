@@ -3,7 +3,7 @@ body, header, main, footer {
     flex-direction: column;
     justify-content: space-between;
     gap: 0px;
-
+    margin: 0;
 }
 
 .container-header {
@@ -13,6 +13,8 @@ body, header, main, footer {
     background-color: #1F2937;
     justify-content: space-between;
     padding: 3px;
+    padding-left: 5em;
+    padding-right: 5em;
 }
 
 .header-left {
@@ -20,6 +22,7 @@ body, header, main, footer {
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
+    font-size: 24px;
 }
 
 .header-right {
@@ -32,22 +35,33 @@ body, header, main, footer {
 .section-1 {
     color: white;
     background-color: #1F2937;
-    padding: 10px;
     display: flex;
     flex-direction: row;
+    padding: 5em;
+    gap: 0px;
 }
 
 .section-1-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 18px;
+} 
 
+.section-1-left h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    text-wrap: wrap;
 } 
 
 .section-1-right {
     color: white;
     background-color: grey;
-    flex-basis: 50%;
+    flex-basis: 55%;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-shrink: 0;
 }
 
 a {
