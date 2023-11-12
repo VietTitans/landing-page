@@ -69,6 +69,11 @@ header, footer {
     flex-shrink: 0;
 }
 
+.section-1-right img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 a {
     color: lightgrey;
     text-decoration: none;
