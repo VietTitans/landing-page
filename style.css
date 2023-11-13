@@ -127,17 +127,18 @@ a {
     text-wrap: wrap;
     color: grey;
     justify-content: space-between;
-    gap: 30px;
+    gap: 10px;
     flex-wrap: wrap;
 }
 
 .img-container img {
-    border: 2px solid #3882F6;
-    padding: 20px;
+
     border-radius: 20px;
     display: flex;
-    flex: 0; /* squares are not square*/
-    width: 150px;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 80px;
+    flex: 1;
 }
 
 .img-container .info {
@@ -161,16 +162,18 @@ a {
     padding-top: 2em;
     padding-bottom: 0;
     color: #1F2937;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 36px;
+    font-family: 'Times New Roman', serif;
+    font-size: 26px;
     font-style: italic;
     font-weight: lighter;
 }
 .section-3 strong {
-    font-size: large;
+    font-size: 20px;
     font-style: normal;
     display: flex;
     justify-content: flex-end;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
 }
 
 /* sign-up */
