@@ -63,6 +63,7 @@ header, footer {
     display: flex;
     margin: 0;
 }
+
 .section-1-left .container-button {
     display: flex;
     align-items: flex-start;
@@ -71,15 +72,14 @@ header, footer {
 
 .section-1-right {
     color: white;
-    background-color: grey;
-    flex-basis: 55%;
     display: flex;
     flex-shrink: 1;
+    flex-basis: 60%;
+    flex-wrap: wrap;
 }
 
 .section-1-right img {
     display: flex;
-    flex-wrap: wrap; /*Figure how to shrink img*/
 }
 
 a {
