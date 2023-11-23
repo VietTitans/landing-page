@@ -220,11 +220,14 @@ a {
 
 .container-action .body {
     display: flex;
+    flex-direction: column;
     align-items: flex-start;
-    flex-direction: row;
+    justify-content: center;
     color: white;
-    font-size: large; 
+    font-size: large;
     gap: 0;
+    padding: 0px;
+    margin: 0;
 }
 
 .container-action button {
@@ -239,15 +242,6 @@ a {
     color: #3882F6;
 }
 
-.container-action .body {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 0px; /*Not being applied. Why?*/
-    margin: 0;
-}
-
 footer {
     display: flex;
     justify-content: center;
@@ -256,7 +250,7 @@ footer {
     padding: 1em;
     font-size: larger;
 }
-/*
+
 * {
     border: 0.5px dotted blue;
 }
