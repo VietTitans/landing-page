@@ -146,30 +146,27 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 36pX;
+    font-size: 36px;
     font-weight: bolder;
     margin: 40px;
 }
 
 .img-container {
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     padding-left: 7em;
     padding-right: 7em;
-    text-wrap: wrap;
-    color: grey;
-    justify-content: space-between;
     gap: 10px;
-    flex-wrap: wrap;
 }
 
 .img-container img {
-
-    border-radius: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-basis: 80px;
     flex: 1;
+    flex-shrink: 0;
+    border-radius: 20px;
 }
 
 .img-container .info {
@@ -178,11 +175,14 @@ a {
     text-align: center;
     justify-content: center;
     align-items: center;
+    flex-basis: 0;
 }
 
 .img-container .text {
-    padding-top: 12px;
+    padding-top: 10px;
+    flex-basis: 0;
     font-size: large;
+    color: grey;
 }
 
 /* quote */
@@ -209,22 +209,22 @@ a {
 
 /* sign-up */
 .container-action {
+    display: flex;
+    justify-content: center;
     background-color: #3882F6;
     margin: 5em;
     margin-left: 9em;
     margin-right: 9em;
     border-radius: 10px;
-    display: flex;
-    justify-content: center;
 }
 
 .container-action .body {
-    color: white;
     display: flex;
-    flex-direction: row;
     align-items: flex-start;
-    gap: 0;
+    flex-direction: row;
+    color: white;
     font-size: large; 
+    gap: 0;
 }
 
 .container-action button {
@@ -256,7 +256,7 @@ footer {
     padding: 1em;
     font-size: larger;
 }
-/*
+
 * {
     border: 0.5px dotted blue;
 }
