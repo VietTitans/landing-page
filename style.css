@@ -111,6 +111,7 @@ header, footer {
 
 .section-1-right img {
     display: flex;
+    flex: 1;
 }
 
 a {
@@ -225,7 +226,6 @@ a {
     justify-content: center;
     color: white;
     font-size: large;
-
 }
 
 .container-action .body p {
