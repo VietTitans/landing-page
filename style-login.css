@@ -1,30 +1,29 @@
-body {
-    display: flex;
+* {
+    flex-direction: column;
+    justify-content: space-between;
+    
+   
 }
 
-* {
-    display: flex;
-    flex-direction: column;
-    border: 2px solid blue;
-}
 header, footer {
+    display: flex;
     color: lightgrey;
     background-color: #1F2937;
     padding-left: 10em;
     padding-right: 10em;
     padding-top: 2px;
     padding-bottom: 2px;
-}
-header {
-    justify-content: space-between;
+    flex: 1;
 }
 
 .container-login {
     justify-content: space-between;
     padding-left: 30em;
     padding-right: 30em;
-    padding-top: 30px;
-    padding-bottom: 50px;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    margin: 0px;
+    gap: 0px;
 }
 
 .container-login .h1 {
@@ -36,4 +35,9 @@ footer {
     justify-content: flex-end;
     color: lightgrey;
     font-size: small;
+}
+
+/*
+* {
+    border: 1px solid blue;
 }
