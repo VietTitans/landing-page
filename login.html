@@ -10,20 +10,21 @@
     <header>
         <a href="index.html" style="text-decoration:none"><h3>SmartNest</h3></a>
     </header>
-    <div class="container-login">
-        <h1>Log in</h1>
-        <form id="login">
-            <label for="uname"><b>Username</b></label>
-            <input type="text" placeholder="Enter Username" name="uname" required>
-            <label for="psw"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" required>
-            <button type="submit">Login</button>
-            <label><input type="checkbox" name="remember"> Remember me</label>
-            <div class="container" style="background-color:#f1f1f1;">
-                <button type="button" class="cancelbtn">Cancel</button>
-                <span class="psw"></span><a href="#" style="text-decoration:none;">Forgot password?</a></span>
+    <div class="main-background" id="main-background">
+        <div class="container-login">
+            <div class="container-title">
+                <h1>Log in</h1>
             </div>
-        </form>
+            <div class="container-body">
+                <form id="login">
+                    <input type="text" placeholder="Username" name="uname" required><br>
+                    <input type="password" placeholder="Password" name="psw" required><br>
+                    <label><input type="checkbox" name="remember"> Remember me</label><br>
+                    <button type="submit">Login</button>
+                    <span class="psw"></span><a href="#" style="text-decoration:none;">Forgot password?</a></span><br>
+                </form>
+            </div>
+        </div>
     </div>
     <footer>
         <p>Made by MD in cooperation with The Odin Project</p>
