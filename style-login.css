@@ -1,0 +1,39 @@
+body {
+    display: flex;
+}
+
+* {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid blue;
+}
+header, footer {
+    color: lightgrey;
+    background-color: #1F2937;
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+header {
+    justify-content: space-between;
+}
+
+.container-login {
+    justify-content: space-between;
+    padding-left: 30em;
+    padding-right: 30em;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.container-login .h1 {
+    align-items: center;
+}
+
+footer {
+    align-items: center;
+    justify-content: flex-end;
+    color: lightgrey;
+    font-size: small;
+}
