@@ -4,9 +4,7 @@ header, footer {
     justify-content: space-between;
     color: lightgrey;
     background-color: #1F2937;
-    padding: 3px;
-    padding-left: 7em;
-    padding-right: 7em;
+    padding: 4px;
 }
 
 a {
@@ -20,7 +18,8 @@ a {
     flex-direction: row;
     color: white;
     justify-content: space-between;
-    padding: 3px;
+    gap: 4em;
+    padding: 1em;
     padding-left: 7em;
     padding-right: 7em;
 }
@@ -28,8 +27,8 @@ a {
 .header-left {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
     font-size: 24px;
 }
 
@@ -67,8 +66,8 @@ a {
     background-color: white;
     padding-left: 30em;
     padding-right: 30em;
-    padding-top: 70px;
-    padding-bottom: 80px;
+    padding-top: 90px;
+    padding-bottom: 93px;
 }
 
 .container-login {
@@ -84,6 +83,7 @@ a {
 .container-title h1 {
     display: flex;
     color: #3882F6;
+    padding: 12px;
 }
 
 #login {
@@ -108,6 +108,8 @@ a {
 #login button {
     padding: 6px;
     border-radius: 3px;
+    color: lightgrey;
+    background-color: #1F2937;
 }
 
 footer {
@@ -117,9 +119,9 @@ footer {
     justify-content: center;
     color: lightgrey;
     font-size: small;
+    padding: 2em;
 }
 
-
 * {
-    border: 1px solid blue;
+    margin: 0px;
 }

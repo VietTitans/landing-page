@@ -250,9 +250,9 @@ footer {
     align-items: center;
     color: lightgrey;
     padding: 1em;
-    font-size: larger;
+    font-size: small;
 }
-/*
+
 * {
     border: 0.5px dotted blue;
 }
