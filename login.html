@@ -32,22 +32,24 @@
                 <span class="psw"></span><a href="#" style="text-decoration:none;">Forgot password?</a></span><br>
             </form>
             <script>
-                let username = prompt("Hello! Please enter your name");
+                let userName = prompt("Who's there?", ""); 
+                
+                if (userName === "admin") {
+                    let pass = prompt("Password?", "");
 
-                if (username==admin) {
-                    let password = prompt("Please enter password");
-                    switch(inputPassword){
-                        case "admin":
-                            prompt("Hello master! Please enter password.");
-                            break;
-                        case ("" || e.key === "Escape"):
-                            alert("Cancelled");
-                            break;
-                        default:
-                            alert("I dont know you");
-                            break;
-                    }
+                if (password === "admin") {
+                    alert("Welcome Master!");
+                } else if (password === "" || password === null){
+                    alert("Canceled");
+                } else {
+                    alert("Wrong password");
                 }
+
+            } else if (userName === "" || userName === null ){
+                alert("Canceled");
+            } else {
+                alert("I don't know you");
+            }
             </script>
         </div>
     </div>
