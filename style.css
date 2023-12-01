@@ -2,8 +2,7 @@ body, header, main, footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 0px;
-    margin: 0;
+    margin: 0px;
 }
 
 header, footer {
@@ -251,9 +250,5 @@ footer {
     align-items: center;
     color: lightgrey;
     padding: 1em;
-    font-size: larger;
-}
-/*
-* {
-    border: 0.5px dotted blue;
+    font-size: small;
 }
