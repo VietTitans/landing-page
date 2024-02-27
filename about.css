@@ -71,16 +71,33 @@ main {
     flex: 1;
 }
 
-img {
+/* #img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     flex: 1;
+    flex-shrink: 0;
+}  */
+
+img {
+    /* flex: 1;
+    flex-direction: row;
     justify-content: center;
+    align-items: center; */
+    /* TO DO: Why cant I center the img? */
     border-radius: 200px;
     margin: 10px;
 }
 
+.about-section-2{
+    background-color: E5E7EB;
+}
+
 .about-section-3{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .team-container {
@@ -88,15 +105,6 @@ img {
     flex-direction: column;
     align-items: center;
     margin-bottom: 5vh;
-}
-
-#img-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    flex: 1;
-    flex-shrink: 0;
 }
 
 /* .textAndImgContainer {
