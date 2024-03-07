@@ -111,7 +111,7 @@ img {
     display: flex;
     justify-content: center;
     color: #3882F6;
-    font-size: xx-large;
+    font-size: 3em; 
     font-weight: bolder;
 }
 
@@ -126,7 +126,8 @@ img {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 1em;
+    padding: 10px;
+    font-weight: lighter;
 } 
 
 footer {
@@ -138,7 +139,3 @@ footer {
     font-size: small;
     margin-top: auto;
 }
- 
-/* *{
-    outline: 1px solid blue;
-} */
