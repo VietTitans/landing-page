@@ -76,10 +76,31 @@ img {
     margin: 10px;
 }
 
-.about-section-2 {
-    background-color: E5E7EB;
+/* Who we are */
+.about-section-1 {
+    padding-left: 7em;
+    padding-right: 7em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.about-section-1 h1{
+    color: #3882F6;
+    background-color: white;
+    font-size: xx-large;
+    font-weight: bolder;
 }
 
+/* Guided by the wind */
+.about-section-2 {
+    color: 1F2937;
+    background-color: #E5E7EB;
+    padding-left: 7em;
+    padding-right: 7em;
+    padding-top: 2em;
+    padding-bottom: 4em;
+}
+
+/* Our team */
 .about-section-3 {
     display: flex;
     flex-direction: column;
@@ -89,6 +110,9 @@ img {
 #section-3-header {
     display: flex;
     justify-content: center;
+    color: #3882F6;
+    font-size: xx-large;
+    font-weight: bolder;
 }
 
 #img-container {
@@ -102,6 +126,7 @@ img {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    padding: 1em;
 } 
 
 footer {
