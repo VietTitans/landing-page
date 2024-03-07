@@ -1,40 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <title>SmartNest</title>
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style-contact.css">
+    <title>Concact us</title>
+</head>
+<body>
     <header>
-      <div class="container-header">
-        <div class="header-left">
-          <a href="index.html"><h3>SmartNest</h3></a>
+        <div class="container-header">
+            <div class="header-left">
+                <a href="index.html"><h3>SmartNest</h3></a>
+            </div>
+            <div class="header-right">
+                <a href="./contact.html" rel="noopener noreferrer">Contact</a>
+                <a href="./about.html" rel="noopener noreferrer">About us</a>
+                <a href="./login.html" rel="noopener noreferrer">Login</a>
+            </div>
         </div>
-        <div class="header-right">
-          <a href="./contact.html" rel="noopener noreferrer">Contact</a>
-          <a href="./about.html" rel="noopener noreferrer">About us</a>
-          <a href="./login.html" rel="noopener noreferrer">Login</a>
-        </div>
-      </div>
     </header>
-    <main>
-        <h1>Send us a peep! We would like to get in touch!</h1><br>
-          <form action="#">
-            <label for="name">Name </label><br>
-            <input type="text" id="fname" name="fname" required><br>
-            
-            <label for="email">Email</label><br>
-            <input type="email" id="email" name="email" required><br>
-            
-            <textarea name="Message" id="message" cols="30" rows="10" style="width: 600px; height: 300px;" required></textarea><br>
-            
-            <button type="submit">Send message</button>
-          </form>
-    </main>
+    <div class="main-background" id="main-background">
+        <div class="container">
+            <div class="container-title">
+              <h1>Send us a peep</h1>
+            </div>
+            <form action="#form">
+              <label for="name">Name </label><br> 
+              <input type="text" id="fname" name="fname" required><br>
+              
+              <div id="div-email">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" required><br>
+              </div>
+              
+              <textarea name="Message" id="message" cols="30" rows="10" style="width: 550px; height: 300px;" required></textarea><br>
+              
+              <button type="submit">Send message</button>
+            </form>
+        </div>
+    </div>
     <footer>
-      <p>Made by MD in cooperation with The Odin Project</p>
+        <p>Made by MD in cooperation with The Odin Project</p>
     </footer>
-  </body>
-</html>
+</body>
+</html> 
