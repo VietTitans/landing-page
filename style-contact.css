@@ -80,15 +80,21 @@ a {
     padding-bottom: 2em;
 }
 
-/* title */
 .container-title h1 {
     display: flex;
     color: #3882F6;
     padding: 12px;
 }
 
+#fname {
+    font-size: large;
+}
+
 #div-email {
     margin-top: 10px;
+}
+#email {
+    font-size: large;
 }
 
 #message {
