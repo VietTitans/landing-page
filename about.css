@@ -80,8 +80,8 @@ img {
 .about-section-1 {
     padding-left: 7em;
     padding-right: 7em;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-top: 3em;
+    padding-bottom: 3em;
 }
 .about-section-1 h1{
     color: #3882F6;
@@ -99,8 +99,8 @@ img {
 }
 
 .about-section-2 div {
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
