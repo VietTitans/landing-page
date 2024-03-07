@@ -96,9 +96,21 @@ img {
     background-color: #E5E7EB;
     padding-left: 7em;
     padding-right: 7em;
-    padding-top: 2em;
-    padding-bottom: 4em;
 }
+
+.about-section-2 div {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    font-size: 40px;
+}
+
 
 /* Our team */
 .about-section-3 {
