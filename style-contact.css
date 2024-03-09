@@ -64,10 +64,10 @@ a {
 /* main body */
 #main-background {
     background-color: white;
-    padding-left: 30em;
-    padding-right: 30em;
+    padding-left: 40em;
+    padding-right: 40em;
     padding-top: 70px;
-    padding-bottom: 93px;
+    padding-bottom: 126px;
 }
 
 .container {

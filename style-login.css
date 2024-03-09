@@ -64,10 +64,10 @@ a {
 /* main body */
 #main-background {
     background-color: white;
-    padding-left: 30em;
-    padding-right: 30em;
+    padding-left: 45em;
+    padding-right: 45em;
     padding-top: 90px;
-    padding-bottom: 93px;
+    padding-bottom: 287px
 }
 
 .container-login {
@@ -76,7 +76,7 @@ a {
     align-items: center;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    flex: 1;
+    flex-shrink: 0;
 }
 
 /* login title */
@@ -90,7 +90,7 @@ a {
     display: flex;
     flex-direction: column;
     width: 80%;
-    max-width: 400px;
+    max-width: 320px;
 }
 
 #login input {
