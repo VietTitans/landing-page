@@ -29,7 +29,7 @@
             <div class="section-1-right">
                 <img src="./image/evilEyeBirdHouseWithLens.png" alt="wooden birdhouse hanging on a stick" height="310" width="310">
             </div>
-        </div>  
+        </div>
         <div class="section-2">
             <h2>SmartNest features</h2>
                 <div class="img-container">
@@ -72,17 +72,20 @@
                 <button class="button">Sign up</button>
             </div>
         </div>
-    </main>      
+    </main>
     <footer>
         <p>Made by MD in cooperation with The Odin Project</p>
-    </footer>  
-    <!-- <script>
-        document.addEventListener("", () => {
-            const signUpButton = document.querySelector(".button");
+    </footer>
+    <script>
+        const signUpButtons = document.querySelectorAll(".button");
+
+        function openSignUpPage (){
+            signUpButtons.forEach(signUpButtons => {
+                signUpButtons.addEventListener("click", () =>
+                    window.location.href = "./signUp.html");
+            });
         }
-        signUpButton.addEventListener("click", ()) => {
-            href="./signUp.html" rel="noopener noreferrer";
-        }
-    </script> -->
+        openSignUpPage();
+    </script>
 </body>
 </html>
