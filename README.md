@@ -1,7 +1,5 @@
 # landing-page
 
-The goal for this project is to flex my (newly learned) flexboxing skills in CSS and HTML. 
+The goal for this project is to learn HTML, CSS and Git.
 
-10/10 would do again.
-
-Updated: Practing my Git skills too. 
+2-2-2025: The current version is not optimized for responsiveness.
